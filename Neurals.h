@@ -37,7 +37,7 @@ typedef struct Neurals {
 #define arrayCount(arr) sizeof((arr))/sizeof((arr)[0]) 
 
 inline void forwardNeurals(Neurals network) {
-
+	
 	for (int i = 0; i < network.layerCount; i++) {
 
 		dotMatrices(network.activations[i + 1], network.activations[i], network.weights[i]);
