@@ -3,7 +3,12 @@
 #ifndef NEURALS_DEF
 #define NEURALS_DEF
 
+#ifndef _NEURAL_MATRIX
+#define _NEURAL_MATRIX
+
 #include "Matrix.h"
+
+#endif
 
 #ifndef _NEURAL_ALLOC
 #ifndef _NEURAL_PRINT
@@ -30,10 +35,6 @@ typedef struct Neurals {
 } Neurals;
 
 #define arrayCount(arr) sizeof((arr))/sizeof((arr)[0]) 
-
-//typedef struct {
-//
-//} NN_Architecture;
 
 inline void forwardNeurals(Neurals network) {
 

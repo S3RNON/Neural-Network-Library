@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8eac790d-2f79-464a-a07c-817d21316263}</ProjectGuid>
+    <ProjectGuid>{061638DB-C26A-4646-89F6-C9B5B4AD264A}</ProjectGuid>
     <RootNamespace>aiaiaiai</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>Neural Network Library</ProjectName>
